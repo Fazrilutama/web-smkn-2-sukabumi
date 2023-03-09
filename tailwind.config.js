@@ -15,6 +15,7 @@ module.exports = {
       },
       backgroundImage: {
         Header : "url('/images/header/bagron.png') ",
+        dekstop : "url('/images/header/bg-dekstop.png')",
       }
     },
   },

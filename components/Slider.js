@@ -9,17 +9,29 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Slider() {
     return (
-        <div className="pt-20">
+        <div className="pt-20 md:pt-[95px]  ">
             <Swiper
                 pagination={true}
                 modules={[Pagination]}
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <Image 
+                    <div className="w-full h-[362px] lg:h-[500px] bg-[url('/images/corosel/mobile1.png')] bg-cover bg-no-repeat md:bg-[url('/images/corosel/dekstop1.png')] md:object-center  ">
+                        <div className=" font-bold text-[28px] lg:text-4xl text-white leading-[33px] lg:leading-[54px] p-6 lg:p-[70px] ">
+                            <p>Upacara</p>
+                            <p>Memperingati Hari</p>
+                            <p>Pendidikan Nasional</p>
+                            <p className="font-normal text-sm lg:text-[28px] pt-1">Bergerak Untuk Merdeka Belajar</p>
+                            <button className="py-2 mt-6 px-4 font-semibold text-xs bg-[#da251c] rounded-lg ">
+                                <Link href="/" >Lihat Selengkapnya</Link>
+                            </button>
+                        </div>
+                    </div>
+                    {/* <Image 
                         className="object-fill w-full md:hidden"
                         width={360} height={362}
                         src="/images/corosel/1.png"
@@ -30,10 +42,23 @@ export default function Slider() {
                         width={1440} height={770}
                         src="/images/corosel/dekstop2.png"
                         alt="image slide 1"
-                    />
+                    /> */}
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image
+
+                <div className="w-full h-[362px] lg:h-[500px] bg-[url('/images/corosel/mobile2.png')] bg-cover bg-no-repeat md:bg-[url('/images/corosel/dekstop2.png')] md:object-center  ">
+                        <div className=" font-bold text-[28px] lg:text-4xl text-white leading-[33px] lg:leading-[54px] p-6 lg:p-[70px] ">
+                            <p>LKBB Rajawali </p>
+                            <p>Walikota Cup 2</p>
+                            <p>Kabupaten se-</p>
+                            <p>Nasional</p>
+                            <p className="font-normal text-sm lg:text-[28px] pt-1">Mulia, Profesional, Juara</p>
+                            <button className="py-2 mt-6 px-4 font-semibold text-xs bg-[#da251c] rounded-lg ">
+                                <Link href="/" >Lihat Selengkapnya</Link>
+                            </button>
+                        </div>
+                    </div>
+                    {/* <Image
                         className="object-fill w-full md:hidden"
                         width={360} height={362}
                         src="/images/corosel/2.png"
@@ -44,11 +69,24 @@ export default function Slider() {
                         width={1440} height={770}
                         src="/images/corosel/dekstop3.png"
                         alt="image slide 1"
-                    />
-                    {/* <img src="/images/corosel/2.png" alt="" className="object-fill w-full" /> */}
+                    /> */}
+
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image
+
+                <div className="w-full h-[362px] lg:h-[500px] bg-[url('/images/corosel/mobile3.png')] bg-cover bg-no-repeat md:bg-[url('/images/corosel/dekstop3.png')] md:object-center  ">
+                        <div className=" font-bold text-[28px] lg:text-4xl text-white leading-[33px] lg:leading-[54px] p-6 lg:p-[70px] ">
+                            <p>Lomba Traveling  </p>
+                            <p>Kepalangmerahan</p>
+                            <p>Tingkat Kota Dan</p>
+                            <p>Kabupaten Sukabumi</p>
+                            <p className="font-normal text-sm lg:text-[28px] pt-1">Mulia, Profesional, Juara</p>
+                            <button className="py-2 mt-6 px-4 font-semibold text-xs bg-[#da251c] rounded-lg ">
+                                <Link href="/" >Lihat Selengkapnya</Link>
+                            </button>
+                        </div>
+                    </div>
+                    {/* <Image
                         className="object-fill w-full md:hidden"
                         width={360} height={362}
                         src="/images/corosel/3.png"
@@ -59,7 +97,7 @@ export default function Slider() {
                         width={1440} height={770}
                         src="/images/corosel/dekstop1.png"
                         alt="image slide 1"
-                    />
+                    /> */}
                 </SwiperSlide>
             </Swiper>
         </div>

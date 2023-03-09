@@ -11,3 +11,4 @@ html {
 .card {
     @apply w-72 cursor-pointer border-b-4 rounded-md
 }
+
