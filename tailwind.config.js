@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ["Poppins", 'sans-serif'],
+      },
+      backgroundImage: {
+        Header : "url('/images/header/bagron.png') ",
       }
     },
   },
