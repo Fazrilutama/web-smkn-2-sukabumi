@@ -15,7 +15,7 @@ export default function Navbar() {
                         {/* Logo */}
                         <Link href="/" className='flex items-center lg:w-8/12'>
                             <Image src="/images/navbar/logo.png" width={43} height={48} alt="Logo" /> 
-                            <h2 className='pl-2 text-xl text-[#1e1916] font-bold w-48 lg:w-full'>Smkn Negeri 2 Kota Sukabumi</h2>
+                            <h2 className='pl-2 text-xl text-[#1e1916] font-bold w-48 lg:w-full '>SMK Negeri 2 Kota Sukabumi</h2>
                         </Link>
                         
                         {/* Hamburger Menu */}
