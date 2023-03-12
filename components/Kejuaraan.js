@@ -11,7 +11,7 @@ export default function Kejuaraan() {
                 <p className='font-semibold text-[34px] text-[#1e1916]'>
                     Kejuaraan
                 </p>
-                <p className='font-normal text-sm text-[#667085] py-2'>
+                <p className='font-normal text-base text-[#667085]  py-2 md:w-[565px] md:mx-auto'>
                     SMK Negri 2 Sukabumi mendapatkan kejuaraan yang sangat patut di apresiasi dan di banggakan , berikut di antaranya
                 </p>
 
