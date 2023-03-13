@@ -17,7 +17,7 @@ module.exports = {
         Header : "url('/images/header/bagron.png') ",
         dekstop : "url('/images/header/bg-dekstop.png')",
         atasanmobile : "url('/images/Atasan/bg.png') ",
-        atasandekstop : "url('/images/Atasan/bg-comp.png') ",
+        atasandekstop : "url('/images/Atasan/bg-red.png') ",
 
       }
     },

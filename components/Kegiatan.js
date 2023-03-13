@@ -15,8 +15,8 @@ export default function Kegiatan() {
             </div>
           </div>
         </div>
-        <div className='px-6 lg:flex lg:flex-wrap lg:justify-evenly bg-atasanmobile bg-cover md:bg-atasandekstop md:bg-cover '>
-          <div className='rounded-b-2xl rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
+        <div className='px-6 lg:flex lg:flex-wrap lg:justify-evenly bg-atasanmobile bg-cover md:bg-atasandekstop md:py-96 md:bg-cover '>
+          <div className='rounded-b-2xl py-5 lg:py-10 lg:flex items-center rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
             <div className='px-5 flex items-center'>
               <img src='/images/ekstrakulikuler/pramuka.png' alt='Pramuka' className='lg:w-80'/>
             </div>
@@ -27,7 +27,7 @@ export default function Kegiatan() {
               </p>
             </div>
           </div>
-          <div className='rounded-b-2xl rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
+          <div className='rounded-b-2xl py-5 lg:py-10 lg:flex items-center rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
             <div className='px-5 flex items-center'>
 
               <img src='/images/ekstrakulikuler/pmr.png' alt='Pramuka' className='lg:w-80' />
@@ -39,7 +39,7 @@ export default function Kegiatan() {
               </p>
             </div>
           </div>
-          <div className='rounded-b-2xl rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10 '>
+          <div className='rounded-b-2xl py-5 lg:py-10 lg:flex items-center rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10 '>
             <div className='px-5 flex items-center'>
               
               <img src='/images/ekstrakulikuler/paskibra.png' alt='Pramuka' className='lg:w-80' />
@@ -51,7 +51,7 @@ export default function Kegiatan() {
               </p>
             </div>
           </div>
-          <div className='rounded-b-2xl rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
+          <div className='rounded-b-2xl py-5 lg:py-10 lg:flex items-center rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
             <div className='px-5 flex items-center'>
               <img src='/images/ekstrakulikuler/irmasi.png' alt='Pramuka' className='lg:w-80' />
             </div>
@@ -62,7 +62,7 @@ export default function Kegiatan() {
               </p>
             </div>
           </div>
-          <div className='rounded-b-2xl rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10 '>
+          <div className='rounded-b-2xl py-5 lg:py-10 lg:flex items-center rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10 '>
             <div className='px-5 flex items-center'>
 
               <img src='/images/ekstrakulikuler/lasphic.png' alt='Pramuka' className='lg:w-80' />
@@ -74,7 +74,7 @@ export default function Kegiatan() {
               </p>
             </div>
           </div>
-          <div className='rounded-b-2xl rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
+          <div className='rounded-b-2xl py-5 lg:py-10 lg:flex items-center rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
             <div className='px-5 flex items-center'>
 
               <img src='/images/ekstrakulikuler/confidance.png' alt='Pramuka' className='lg:w-80' />
