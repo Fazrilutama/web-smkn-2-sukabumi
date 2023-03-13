@@ -4,8 +4,8 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className='container mx-auto bg-[#1d2939] pt-12 mt-32'>
-        <div className='px-6 md:flex justify-between'>
+    <div className='mx-auto bg-[#1d2939] pt-12 mt-32'>
+        <div className='px-6 md:flex justify-around'>
             <div>
                 <div className='flex items-center md:w-[324px] '>
                     <Image src="/images/footer/image 1.png" alt='logo' width={51} height={58} />                

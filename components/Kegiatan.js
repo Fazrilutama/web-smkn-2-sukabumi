@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Kegiatan() {
   return (
-    <div className='container mx-auto'>
-      <div className='px-6 mt-20'>
+    <div className='mx-auto'>
+      <div className='mt-20'>
         <div>
           <div className='relative h-[362px] mt-20 bg-Header flex items-center justify-center md:bg-dekstop bg-cover md:h-[500px] bg-bottom bg-no-repeat'>
             <img src='/images/header/Frame 13.png' className=' ' />
@@ -15,7 +15,7 @@ export default function Kegiatan() {
             </div>
           </div>
         </div>
-        <div className='lg:flex lg:flex-wrap lg:justify-evenly md:bg-atasandekstop md:bg-cover '>
+        <div className='px-6 lg:flex lg:flex-wrap lg:justify-evenly bg-atasanmobile bg-cover md:bg-atasandekstop md:bg-cover '>
           <div className='rounded-b-2xl rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
             <div className='px-5 flex items-center'>
               <img src='/images/ekstrakulikuler/pramuka.png' alt='Pramuka' className='lg:w-80'/>

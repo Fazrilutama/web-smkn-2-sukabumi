@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Header() {
     return (
-        <div className='container mx-auto'>
+        <div className='mx-auto'>
             <div className=''>
-                <div className='relative h-[362px] mt-20 bg-Header flex items-center justify-center md:bg-dekstop bg-cover md:h-[500px] bg-bottom bg-no-repeat'>
+                <div className='relative h-[362px] mt-20 bg-Header flex items-center justify-center md:bg-dekstop bg-cover md:h-[600px] bg-bottom bg-no-repeat'>
                     <img src='/images/header/Frame 13.png' className=' ' />
 
                     <div className='text-center font-semibold text-[28px] text-[#677487] absolute bottom-6 md:bottom-9 bg-white px-9 py-2 rounded-tr-[30px]'>
@@ -13,8 +13,8 @@ export default function Header() {
                         </h1>
                     </div>
                 </div>
-                <div className='mx-5'>
-                    <div className=' mx-auto text-base font-normal text-gray-800 md:text-center lg:w-[860px] tracking-[0,2em]'>
+                <div className='mx-7'>
+                    <div className='mx-auto px-7 text-base font-normal text-gray-800 md:text-center lg:w-[860px] tracking-[0,2em]'>
                         <p>
                             Tahun 1962/1963 didirikan SMEA Swasta dibawah binaan LPN (Lembaga Pendidikan Nasional) Setelah Peristiwa G.30S/PKI SMEA LPN di ambil alih oleh Pemda Kotamadya DT. II Sukabumi Menjadi SMEA Negeri pada tanggal 27 Januari 1967 berdasarkan SK. Menteri Pendidikan Dan Kebudayaan RI Dengan Nomor : 14/B.3/Kedj. Dan alamat di Jalan Perintis Kemerdekaan No. 11 Kotamadya Sukabumi.
                             <br /> <br />

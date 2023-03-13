@@ -11,9 +11,9 @@ export default function Dropdown() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md py-2 text-lg font-bold text-[#1e1916]">
+        <Menu.Button className="flex w-full justify-center items-center gap-x-1.5 rounded-md py-2 text-lg font-bold text-[#1e1916]">
           Profil Sekolah
-          <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
+          <ChevronDownIcon className="-mr-1 h-7 w-7 text-gray-400" aria-hidden="true" />
         </Menu.Button>
       </div>
 
