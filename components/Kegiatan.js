@@ -16,9 +16,9 @@ export default function Kegiatan() {
           </div>
         </div>
         <div className='lg:flex lg:flex-wrap lg:justify-evenly md:bg-atasandekstop md:bg-cover '>
-          <div className='rounded-b-2xl rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10   my-10'>
+          <div className='rounded-b-2xl rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
             <div className='px-5 flex items-center'>
-              <img src='/images/ekstrakulikuler/pramuka.png' alt='Pramuka' className='lg:w-full'/>
+              <img src='/images/ekstrakulikuler/pramuka.png' alt='Pramuka' className='lg:w-80'/>
             </div>
             <div className='px-5 py-5'>
               <p className='text-2xl font-bold text-[#1e1916] '>Pramuka</p>
@@ -30,7 +30,7 @@ export default function Kegiatan() {
           <div className='rounded-b-2xl rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
             <div className='px-5 flex items-center'>
 
-              <img src='/images/ekstrakulikuler/pmr.png' alt='Pramuka' className='' />
+              <img src='/images/ekstrakulikuler/pmr.png' alt='Pramuka' className='lg:w-80' />
             </div>
             <div className='px-5 py-5'>
               <p className='text-2xl font-bold text-[#1e1916] '>Palang Merah Remaja</p>
@@ -42,7 +42,7 @@ export default function Kegiatan() {
           <div className='rounded-b-2xl rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10 '>
             <div className='px-5 flex items-center'>
               
-              <img src='/images/ekstrakulikuler/paskibra.png' alt='Pramuka' className='' />
+              <img src='/images/ekstrakulikuler/paskibra.png' alt='Pramuka' className='lg:w-80' />
             </div>
             <div className='px-5 py-5'>
               <p className='text-2xl font-bold text-[#1e1916] '>Paskibra</p>
@@ -65,7 +65,7 @@ export default function Kegiatan() {
           <div className='rounded-b-2xl rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10 '>
             <div className='px-5 flex items-center'>
 
-              <img src='/images/ekstrakulikuler/lasphic.png' alt='Pramuka' className='' />
+              <img src='/images/ekstrakulikuler/lasphic.png' alt='Pramuka' className='lg:w-80' />
             </div>
             <div className='px-5 py-5'>
               <p className='text-2xl font-bold text-[#1e1916] '>Lasphic</p>
@@ -77,7 +77,7 @@ export default function Kegiatan() {
           <div className='rounded-b-2xl rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
             <div className='px-5 flex items-center'>
 
-              <img src='/images/ekstrakulikuler/confidance.png' alt='Pramuka' className='' />
+              <img src='/images/ekstrakulikuler/confidance.png' alt='Pramuka' className='lg:w-80' />
             </div>
             <div className='px-5 py-5'>
               <p className='text-2xl font-bold text-[#1e1916] '>confidance</p>
