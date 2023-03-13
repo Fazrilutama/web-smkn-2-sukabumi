@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
+import Movie from '@/components/Movie'
 import Navbar from '@/components/Navbar'
 import React from 'react'
 import Head from 'next/head'
@@ -15,6 +16,7 @@ export default function TentangSekolah() {
       </Head>
         <Navbar />
         <Header />
+        <Movie />
         <Footer />
     </div>
   )
