@@ -5,17 +5,17 @@ export default function Kegiatan() {
     <div className='mx-auto'>
       <div className='mt-20'>
         <div>
-          <div className='relative h-[362px] mt-20 bg-Header flex items-center justify-center md:bg-dekstop bg-cover md:h-[500px] bg-bottom bg-no-repeat'>
+          <div className='relative h-[450px] mt-20 bg-Header flex items-center justify-center md:bg-dekstop bg-cover sm:h-[650px] bg-bottom bg-no-repeat'>
             <img src='/images/header/Frame 13.png' className=' ' />
 
-            <div className='text-center font-semibold text-[28px] text-[#677487] absolute bottom-3 md:bottom-9 bg-white px-14 py-2 rounded-tr-[30px]'>
+            <div className='text-center font-semibold text-[28px] text-[#677487] absolute bottom-7 pt-5 2xl:bottom-16 bg-white px-9 py-2 rounded-tr-[30px] w-[90%]'>
               <h1>
                 Ekstrakulikuler
               </h1>
             </div>
           </div>
         </div>
-        <div className='px-6 lg:flex lg:flex-wrap lg:justify-evenly bg-atasanmobile bg-cover md:bg-atasandekstop md:py-96 md:bg-cover '>
+        <div className='px-6 lg:flex lg:flex-wrap lg:justify-evenly bg-atasanmobile bg-cover md:bg-atasandekstop md:py-8 md:bg-cover '>
           <div className='rounded-b-2xl py-5 lg:py-10 lg:flex items-center rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
             <div className='px-5 flex items-center'>
               <img src='/images/ekstrakulikuler/pramuka.png' alt='Pramuka' className='lg:w-80'/>

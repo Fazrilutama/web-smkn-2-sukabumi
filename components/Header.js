@@ -4,10 +4,9 @@ export default function Header() {
     return (
         <div className='mx-auto'>
             <div className=''>
-                <div className='relative h-[362px] mt-20 bg-Header flex items-center justify-center md:bg-dekstop bg-cover md:h-[600px] bg-bottom bg-no-repeat'>
-                    <img src='/images/header/Frame 13.png' className=' ' />
-
-                    <div className='text-center font-semibold text-[28px] text-[#677487] absolute bottom-6 md:bottom-9 bg-white px-9 py-2 rounded-tr-[30px]'>
+                <div className='relative h-[450px] mt-20 bg-Header flex items-center justify-center md:bg-dekstop bg-cover sm:h-[650px] bg-bottom bg-no-repeat'>
+                    <img src='/images/header/Frame 13.png' />
+                    <div className='text-center font-semibold text-[28px] text-[#677487] absolute bottom-7 pt-5 2xl:bottom-16 bg-white px-9 py-2 rounded-tr-[30px] w-[90%]'>
                         <h1>
                             Sejarah Singkat
                         </h1>
