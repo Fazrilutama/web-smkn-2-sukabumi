@@ -30,7 +30,7 @@ export default function Kejuaraan() {
                                     PASUKAN PASKIBRA SMKN 2 Sukabumi memenangkan lomba juara 3 The Best Dress, peleton A, Juara 3 perintis, Peleton B/klz XL. Juara 3 Potensial, Peleton A/klz Z...
                                 </p>
                                 <div className=''>
-                                    <Link href="/">
+                                    <Link href="https://www.instagram.com/p/Cmf0binPAR6/?utm_source=ig_web_copy_link">
                                         <button className='bg-[#da251c] py-2 px-6 text-sm font-semibold text-white rounded-[20px] mt-3 '>
                                             Baca selengkapnya
                                         </button>
@@ -53,9 +53,11 @@ export default function Kejuaraan() {
                                         Sesuatu yang sangat membanggakan bagi SMKN 2 SUKABUMI, siswanya meraih Juara 1 musikalisasi  puisi tingkat kota  sukabumi , juara 1 komedi tunggal tingkat kota sukabumi, juara 3 komedi tunggal tingkat kota sukabumi dan juara 2 komedi tunggal... 
                                     </p>
                                     <div className=''>
-                                        <button className='bg-[#da251c] py-2 px-6 text-sm font-semibold text-white rounded-[20px] mt-3 '>
-                                            Baca selengkapnya
-                                        </button>
+                                        <Link href="https://www.instagram.com/dokumenter_smkn2_smi/?hl=id">
+                                            <button className='bg-[#da251c] py-2 px-6 text-sm font-semibold text-white rounded-[20px] mt-3 '>
+                                                Baca selengkapnya
+                                            </button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

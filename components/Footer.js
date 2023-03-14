@@ -26,25 +26,25 @@ export default function Footer() {
                 </p>
                 <div className='pb-10 py-4'>
                     <div className='text-sm text-[#9c9c9c] font-normal '>
-                        <Link href="/" className='flex gap-2'>
+                        <Link href="https://id-id.facebook.com/smkn2sukabumi/" className='flex gap-2'>
                         <Image src="/images/footer/fb.png" alt='fb' width={22} height={22}s />
                             Smea Djuara
                         </Link>
                     </div>
                     <div className='text-sm text-[#9c9c9c] font-normal py-4 '>
-                    <Link href="/" className='flex gap-2'>
+                    <Link href="https://www.instagram.com/dokumenter_smkn2_smi/?hl=id" className='flex gap-2'>
                         <Image src="/images/footer/ig.png" alt='ig' width={22} height={22}s />
                             dokumenter_smkn_2_smi
                         </Link>
                     </div>
                     <div className='text-sm text-[#9c9c9c] font-normal '>
-                        <Link href="/" className='flex gap-2'>
+                        <Link href="https://twitter.com/smkn2_smi?lang=id" className='flex gap-2'>
                         <Image src="/images/footer/twiter.png" alt='twiter' width={22} height={22}s />
                             SMKN 2 SUKABUMI
                         </Link>
                     </div>
                     <div className='text-sm text-[#9c9c9c] font-normal py-4 ' >
-                    <Link href="/" className='flex gap-2'>
+                    <Link href="https://www.youtube.com/@smkn2tvchannel636" className='flex gap-2'>
                         <Image src="/images/footer/yt.png" alt='yt' width={22} height={22}s />
                             SMKN2 TV CHANNEL
                         </Link>

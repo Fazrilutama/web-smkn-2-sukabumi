@@ -27,7 +27,7 @@ export default function Slider() {
                             <p>Pendidikan Nasional</p>
                             <p className="font-normal text-sm lg:text-[28px] pt-1">Bergerak Untuk Merdeka Belajar</p>
                             <button className="py-2 mt-6 px-4 font-semibold text-xs bg-[#da251c] rounded-lg ">
-                                <Link href="/" >Lihat Selengkapnya</Link>
+                                <Link href="https://www.instagram.com/p/Cdf6e8TvOQk/?utm_source=ig_web_copy_link" >Lihat Selengkapnya</Link>
                             </button>
                         </div>
                     </div>
@@ -54,23 +54,10 @@ export default function Slider() {
                             <p>Nasional</p>
                             <p className="font-normal text-sm lg:text-[28px] pt-1">Mulia, Profesional, Juara</p>
                             <button className="py-2 mt-6 px-4 font-semibold text-xs bg-[#da251c] rounded-lg ">
-                                <Link href="/" >Lihat Selengkapnya</Link>
+                                <Link href="https://www.instagram.com/p/Cmf0binPAR6/?utm_source=ig_web_copy_link" >Lihat Selengkapnya</Link>
                             </button>
                         </div>
                     </div>
-                    {/* <Image
-                        className="object-fill w-full md:hidden"
-                        width={360} height={362}
-                        src="/images/corosel/2.png"
-                        alt="image slide 2"
-                    />
-                    <Image 
-                        className="hidden object-fill w-full md:block"
-                        width={1440} height={770}
-                        src="/images/corosel/dekstop3.png"
-                        alt="image slide 1"
-                    /> */}
-
                 </SwiperSlide>
                 <SwiperSlide>
 
@@ -82,22 +69,10 @@ export default function Slider() {
                             <p>Kabupaten Sukabumi</p>
                             <p className="font-normal text-sm lg:text-[28px] pt-1">Mulia, Profesional, Juara</p>
                             <button className="py-2 mt-6 px-4 font-semibold text-xs bg-[#da251c] rounded-lg ">
-                                <Link href="/" >Lihat Selengkapnya</Link>
+                                <Link href="https://www.instagram.com/p/CldGpEKyg4w/?utm_source=ig_web_copy_link" >Lihat Selengkapnya</Link>
                             </button>
                         </div>
                     </div>
-                    {/* <Image
-                        className="object-fill w-full md:hidden"
-                        width={360} height={362}
-                        src="/images/corosel/3.png"
-                        alt="image slide 3"
-                    />
-                    <Image 
-                        className="hidden object-fill w-full md:block"
-                        width={1440} height={770}
-                        src="/images/corosel/dekstop1.png"
-                        alt="image slide 1"
-                    /> */}
                 </SwiperSlide>
             </Swiper>
         </div>
