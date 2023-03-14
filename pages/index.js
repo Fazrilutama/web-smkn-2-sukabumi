@@ -1,7 +1,7 @@
-import Corousel from '@/components/Corousel'
 import Footer from '@/components/Footer'
 import Kejuaraan from '@/components/Kejuaraan'
 import Kepsek from '@/components/Kepsek'
+import KompetensiKeahlian from '@/components/KompetensiKeahlian'
 import Navbar from '@/components/Navbar'
 import Slider from '@/components/Slider'
 import Head from 'next/head'
@@ -22,7 +22,7 @@ export default function Home() {
         <Slider />
         <Kejuaraan/>
         <Kepsek />
-        <Corousel/>
+        <KompetensiKeahlian />
         <Footer />
         
       </div>
