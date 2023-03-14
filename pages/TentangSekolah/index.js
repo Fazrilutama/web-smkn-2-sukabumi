@@ -4,6 +4,7 @@ import Movie from '@/components/Movie'
 import Navbar from '@/components/Navbar'
 import React from 'react'
 import Head from 'next/head'
+import Fitursekolah from '@/components/Fitursekolah'
 
 export default function TentangSekolah() {
   return (
@@ -16,6 +17,7 @@ export default function TentangSekolah() {
       </Head>
         <Navbar />
         <Header />
+        <Fitursekolah />
         <Movie />
         <Footer />
     </div>
