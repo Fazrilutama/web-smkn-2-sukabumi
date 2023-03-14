@@ -2,6 +2,7 @@ import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import React from 'react'
 import Head from 'next/head'
+import Contactmap from '@/components/Contactmap'
 
 export default function kontak() {
   return (
@@ -13,6 +14,7 @@ export default function kontak() {
         <link rel="icon" href="/logo.png" />
       </Head>
         <Navbar />
+        <Contactmap />
         <Footer />
     </div>
   )
