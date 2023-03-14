@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Atasan() {
     return (
-        <div className='container bg-atasanmobile md:bg-atasandekstop bg-cover mt-20'>
-            <div className='flex flex-wrap justify-evenly gap-4 pb-10 md:gap-14 lg:gap-28 xl:gap-36'>
+        <div className='bg-atasanmobile md:bg-atasanGuru bg-cover mt-20 mx-auto'>
+            <div className='flex flex-wrap justify-around gap-4 pb-10 md:gap-14 lg:gap-28 xl:gap-36 xl:w-[60%] mx-auto '>
                 <div className='text-center py-5'>
                     <img src='/images/Atasan/heni.png' alt='bu heni' className='md:w-44 lg:w-48 xl:w-56 ' />
                     <div className='bg-white w-[152px] h-[106px] lg:h-40  md:w-44 lg:w-48 xl:w-56 rounded-b-[20px] pb-4 '>

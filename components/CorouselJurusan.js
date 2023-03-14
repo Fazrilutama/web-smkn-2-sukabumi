@@ -4,7 +4,46 @@ import '@splidejs/react-splide/css';
 
 function CarouselJurusan() {
   return (
-    <Splide
+    <>
+    <div className="hidden md:flex flex-wrap mt-10 justify-around mx-5">
+    <Image
+          src="/images/carousel/AKL.png"
+          alt="AKL"
+          width={222}
+          height={317}
+          className="pb-10"
+        />
+    <Image
+          src="/images/carousel/BDP.png"
+          alt="AKL"
+          width={222}
+          height={317}
+          className="pb-10"
+        />
+    <Image
+          src="/images/carousel/RPL.png"
+          alt="AKL"
+          width={222}
+          height={317}
+          className="pb-10"
+        />
+    <Image
+          src="/images/carousel/TKJ.png"
+          alt="AKL"
+          width={222}
+          height={317}
+          className="pb-10"
+        />
+    <Image
+          src="/images/carousel/OTKP.png"
+          alt="AKL"
+          width={222}
+          height={317}
+          className="pb-10"
+        />
+    </div>
+    <div className="md:hidden">
+      <Splide
       options={{
         padding: "5rem",
         gap: "2rem",
@@ -58,6 +97,8 @@ function CarouselJurusan() {
         />
       </SplideSlide>
     </Splide>
+    </div>
+    </>
   );
 }
 

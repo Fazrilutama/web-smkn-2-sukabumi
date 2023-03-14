@@ -11,14 +11,12 @@ export default function Kejuaraan() {
                 <p className='font-semibold text-[34px] text-[#1e1916]'>
                     Kejuaraan
                 </p>
-                <p className='font-normal text-base text-[#667085]  py-2 md:w-[565px] md:mx-auto'>
+                <p className='font-normal text-base text-[#667085] py-2 md:w-[565px] md:mx-auto'>
                     SMK Negri 2 Sukabumi mendapatkan kejuaraan yang sangat patut di apresiasi dan di banggakan , berikut di antaranya
                 </p>
 
             </div>
-                <div className='md:flex md:justify-evenly'>
-
-                    <div className=''>
+                <div className='flex flex-wrap justify-center md:justify-evenly mt-10'>
                         <div className=''>
                             <Image alt='Foto' src="/images/kejuaraan/Group 2.png" width={324} height={324} className="lg:hidden" />
                             <Image alt='Foto' src="/images/kejuaraan/Group 2.png" width={400} height={400} className="hidden lg:block " />
@@ -37,10 +35,7 @@ export default function Kejuaraan() {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
-
-                    </div>
-                    <div className=''> 
+                    </div> 
                         <div className="md:pl-6" >
                             <div className='flex flex-col justify-center py-6 mt-4 md:mt-0 md:py-0'>
                                 <Image alt='Foto' src="/images/kejuaraan/Group 2 (1).png" width={324} height={324} className="lg:hidden" />
@@ -61,7 +56,6 @@ export default function Kejuaraan() {
                             </div>
 
                         </div>
-                    </div>
 
                 </div>
 
