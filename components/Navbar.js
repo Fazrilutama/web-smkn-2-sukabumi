@@ -42,10 +42,6 @@ export default function Navbar() {
                                 </Link>
                             </li>
                             <li className='pb-6 text-lg text-[#1e1916] font-bold lg:py-5 py-2 lg:px-4 xl:px-6 text-center hover:text-[#da251c] focus:text-[#da251c]'>
-
-                                {/* <Link href="#" onClick={() => setNavbar (!navbar)}>
-                                    Profil Sekolah 
-                                </Link> */}
                                 <Dropdown />
                             </li>
                             <li className='pb-6 text-lg text-[#1e1916] font-bold lg:py-5 py-2 lg:px-4 xl:px-6 text-center hover:text-[#da251c] focus:text-[#da251c]'>

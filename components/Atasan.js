@@ -28,7 +28,7 @@ export default function Atasan() {
                     </div>
                 </div>
                 <div className='text-center py-5'>
-                    <img src='/images/Atasan/dedi.png' alt='bpk dedi' className='md:w-44 lg:w-[350px] ' />
+                    <img src='/images/Atasan/dedi.png' alt='bpk dedi' className='w-[152px] md:w-44 lg:w-[350px] ' />
                     <div className='bg-white w-[152px] h-[106px] lg:h-40 md:w-44 lg:w-[350px] rounded-b-[20px] pb-4 shadow-lg '>
                         <p className='text-sm lg:text-xl xl:text-2xl font-semibold text-[#1E1916] tracking-[0,2em] md:px-3' >Drs. H. Dedi Samsuri, M.M.</p>
                         <p className='text-sm lg:text-base font-semibold text-[#98A2B3] tracking-[0,2em] pt-2 md:px-3'>WAKASEK Urusan Hubungan Industri</p>
@@ -48,6 +48,48 @@ export default function Atasan() {
                             S.Pd.</p>
                         <p className='text-sm lg:text-base font-semibold text-[#98A2B3] tracking-[0,2em]  md:px-3 pt-4 '>WAKASEK Urusan
                             Kesiswaan</p>
+                    </div>
+                </div>
+                <div className='text-center py-5'>
+                    <img src='/images/Atasan/tati.png' alt='bu tati' className='w-[152px] md:w-44 lg:w-[350px] ' />
+                    <div className='bg-white w-[152px] h-[106px] lg:h-40 md:w-44 lg:w-[350px] rounded-b-[20px] pb-4 shadow-lg '>
+                        <p className='text-sm lg:text-xl xl:text-2xl font-semibold text-[#1E1916] tracking-[0,2em] px-3 ' >Tati Suparti S.Pd M.M</p>
+                        <p className='text-sm lg:text-base font-semibold text-[#98A2B3] tracking-[0,2em]  md:px-3 pt-4 '>Ketua Kompetensi (AKL)</p>
+                    </div>
+                </div>
+                <div className='text-center py-5'>
+                    <img src='/images/Atasan/deti.png' alt='bu deti' className='w-[152px] md:w-44 lg:w-[350px] ' />
+                    <div className='bg-white w-[152px] h-[106px] lg:h-40 md:w-44 lg:w-[350px] rounded-b-[20px] pb-4 shadow-lg '>
+                        <p className='text-sm lg:text-xl xl:text-2xl font-semibold text-[#1E1916] tracking-[0,2em] px-3 ' >Deti Juwita S.Pd</p>
+                        <p className='text-sm lg:text-base font-semibold text-[#98A2B3] tracking-[0,2em]  md:px-3 pt-4 '>Ketua Kompetensi Keahlian (OTKP) </p>
+                    </div>
+                </div>
+                <div className='text-center py-5'>
+                    <img src='/images/Atasan/ida.png' alt='bu ida' className='w-[152px] md:w-44 lg:w-[350px] ' />
+                    <div className='bg-white w-[152px] h-[106px] lg:h-40 md:w-44 lg:w-[350px] rounded-b-[20px] pb-4 shadow-lg '>
+                        <p className='text-sm lg:text-xl xl:text-2xl font-semibold text-[#1E1916] tracking-[0,2em] px-3 ' >Ida Julianti S.Pd</p>
+                        <p className='text-sm lg:text-base font-semibold text-[#98A2B3] tracking-[0,2em]  md:px-3 pt-4 '>Ketua Kompetensi Keahlian (BDP)</p>
+                    </div>
+                </div>
+                <div className='text-center py-5'>
+                    <img src='/images/Atasan/santi.png' alt='bu santi' className='w-[152px] md:w-44 lg:w-[350px] ' />
+                    <div className='bg-white w-[152px] h-[106px] lg:h-40 md:w-44 lg:w-[350px] rounded-b-[20px] pb-4 shadow-lg '>
+                        <p className='text-sm lg:text-xl xl:text-2xl font-semibold text-[#1E1916] tracking-[0,2em] px-3 ' >Santi Supardi M.Kom</p>
+                        <p className='text-sm lg:text-base font-semibold text-[#98A2B3] tracking-[0,2em]  md:px-3 pt-4 '>Ketua Kompetensi (RPL)</p>
+                    </div>
+                </div>
+                <div className='text-center py-5'>
+                    <img src='/images/Atasan/lusi.png' alt='bu lusy' className='w-[152px] md:w-44 lg:w-[350px] ' />
+                    <div className='bg-white w-[152px] h-[106px] lg:h-40 md:w-44 lg:w-[350px] rounded-b-[20px] pb-4 shadow-lg '>
+                        <p className='text-sm lg:text-xl xl:text-2xl font-semibold text-[#1E1916] tracking-[0,2em] px-3 ' >Lusy Mariasari S.Kom</p>
+                        <p className='text-sm lg:text-base font-semibold text-[#98A2B3] tracking-[0,2em]  md:px-3 pt-4 '>Ketua Kompetensi (TKJ)</p>
+                    </div>
+                </div>
+                <div className='text-center py-5'>
+                    <img src='/images/Atasan/tri.png' alt='bu tri' className='w-[152px] md:w-44 lg:w-[350px] ' />
+                    <div className='bg-white w-[152px] h-[106px] lg:h-40 md:w-44 lg:w-[350px] rounded-b-[20px] pb-4 shadow-lg '>
+                        <p className='text-sm lg:text-xl xl:text-2xl font-semibold text-[#1E1916] tracking-[0,2em] px-3 ' >Tri Wahyuningsih S.kom</p>
+                        <p className='text-sm lg:text-base font-semibold text-[#98A2B3] tracking-[0,2em]  md:px-3 pt-4 '>Ketua Kompetensi Non Kejuruan</p>
                     </div>
                 </div>
             </div>

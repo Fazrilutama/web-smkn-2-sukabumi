@@ -54,6 +54,19 @@ export default function Dropdown() {
                 </Link>
               )}
             </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <Link
+                  href="/Guru"
+                  className={classNames(
+                    active ? 'focus:text-[#da251c] hover:text-[#da251c] text-gray-900' : 'text-[#1e1916]',
+                    'block px-4 py-2 text-sm'
+                  )}
+                >
+                  Guru
+                </Link>
+              )}
+            </Menu.Item>
           </div>
         </Menu.Items>
       </Transition>
