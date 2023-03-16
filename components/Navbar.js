@@ -49,6 +49,11 @@ export default function Navbar() {
                                     Ekstrakulikuler
                                 </Link>
                             </li>
+                            <li className='pb-6 text-lg text-[#1e1916] font-bold lg:py-5 py-2 lg:px-4 xl:px-6 text-center hover:text-[#da251c] focus:text-[#da251c]'>
+                                <Link href="/InformasiPPDB" onClick={() => setNavbar (!navbar)}>
+                                    Informasi PPDB
+                                </Link>
+                            </li>
                             <li className='pb-6 text-lg text-[#1e1916] font-bold lg:py-3 py-2 lg:px-4 xl:px-6 text-center hover:text-[#da251c] lg:hover:text-white lg:bg-[#da251c] lg:text-white rounded-[30px] '>
                                 <Link href="/Kontak/" onClick={() => setNavbar (!navbar)}>
                                     Kontak
