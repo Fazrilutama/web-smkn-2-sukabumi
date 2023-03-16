@@ -26,23 +26,11 @@ export default function Slider() {
                             <p>Memperingati Hari</p>
                             <p>Pendidikan Nasional</p>
                             <p className="font-normal text-sm lg:text-[28px] pt-1">Bergerak Untuk Merdeka Belajar</p>
-                            <button className="py-2 mt-6 px-4 font-semibold text-xs bg-[#da251c] rounded-lg ">
-                                <Link href="https://www.instagram.com/p/Cdf6e8TvOQk/?utm_source=ig_web_copy_link" >Lihat Selengkapnya</Link>
+                            <button className="py-2 mt-6 px-4 font-semibold text-xs bg-[#da251c] rounded-full ">
+                                <Link href="https://www.instagram.com/p/Cdf6e8TvOQk/?utm_source=ig_web_copy_link" target={"_blank"} >Lihat Selengkapnya</Link>
                             </button>
                         </div>
                     </div>
-                    {/* <Image 
-                        className="object-fill w-full md:hidden"
-                        width={360} height={362}
-                        src="/images/corosel/1.png"
-                        alt="image slide 1"
-                    />
-                    <Image 
-                        className="hidden object-fill w-full md:block"
-                        width={1440} height={770}
-                        src="/images/corosel/dekstop2.png"
-                        alt="image slide 1"
-                    /> */}
                 </SwiperSlide>
                 <SwiperSlide>
 
@@ -53,8 +41,8 @@ export default function Slider() {
                             <p>Kabupaten se-</p>
                             <p>Nasional</p>
                             <p className="font-normal text-sm lg:text-[28px] pt-1">Mulia, Profesional, Juara</p>
-                            <button className="py-2 mt-6 px-4 font-semibold text-xs bg-[#da251c] rounded-lg ">
-                                <Link href="https://www.instagram.com/p/Cmf0binPAR6/?utm_source=ig_web_copy_link" >Lihat Selengkapnya</Link>
+                            <button className="py-2 mt-6 px-4 font-semibold text-xs bg-[#da251c] rounded-full ">
+                                <Link href="https://www.instagram.com/p/Cmf0binPAR6/?utm_source=ig_web_copy_link" target={"_blank"} >Lihat Selengkapnya</Link>
                             </button>
                         </div>
                     </div>
@@ -68,8 +56,8 @@ export default function Slider() {
                             <p>Tingkat Kota Dan</p>
                             <p>Kabupaten Sukabumi</p>
                             <p className="font-normal text-sm lg:text-[28px] pt-1">Mulia, Profesional, Juara</p>
-                            <button className="py-2 mt-6 px-4 font-semibold text-xs bg-[#da251c] rounded-lg ">
-                                <Link href="https://www.instagram.com/p/CldGpEKyg4w/?utm_source=ig_web_copy_link" >Lihat Selengkapnya</Link>
+                            <button className="py-2 mt-6 px-4 font-semibold text-xs bg-[#da251c] rounded-full ">
+                                <Link href="https://www.instagram.com/p/CldGpEKyg4w/?utm_source=ig_web_copy_link" target={"_blank"} >Lihat Selengkapnya</Link>
                             </button>
                         </div>
                     </div>
