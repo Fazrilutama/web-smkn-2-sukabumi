@@ -8,7 +8,7 @@ export default function Kejuaraan() {
     <div className='container mx-auto'>
         <div className='px-6 mt-10'>
             <div className='text-center pb-6'>
-                <p className='font-semibold text-[34px] text-[#1e1916]'>
+                <p className='font-semibold text-[36px] text-[#1e1916]'>
                     Kejuaraan
                 </p>
                 <p className='font-normal text-base text-[#667085] py-2 md:w-[565px] md:mx-auto'>
@@ -60,11 +60,6 @@ export default function Kejuaraan() {
                         </div>
 
                 </div>
-
-                    <p className='text-[#b61f17] text-center mt-20 font-semibold text-base underline-offset-2 '>
-                        <Link href="">Lebih Lengkap  </Link>
-                    </p>
-
         </div>
     </div>
   )

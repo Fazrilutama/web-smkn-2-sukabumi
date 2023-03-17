@@ -4,9 +4,9 @@ import React from 'react'
 
 export default function Contactmap() {
     return (
-        <div className='mt-24'>
+        <div className='mt-16'>
             <div className=''>
-                <div className='relative h-[450px] mt-20 bg-Header flex items-center justify-center md:bg-dekstop bg-cover md:h-[660px] bg-bottom bg-no-repeat'>
+                <div className='relative h-[450px] mt-16 bg-Header flex items-center justify-center md:bg-dekstop bg-cover md:h-[660px] bg-bottom bg-no-repeat'>
                     <img src='/images/header/Frame 13.png' />
                     <div className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] absolute bottom-7 2xl:bottom-16 bg-white py-2 rounded-tr-[30px] w-[90%]'>
                         <h1 className='mt-5'>
@@ -14,9 +14,9 @@ export default function Contactmap() {
                         </h1>
                     </div>
                 </div>
-                <div className='md:flex mx-10 lg:mx-16 2xl:mx-36 md:items-center md:justify-between'>
+                <div className='md:flex mx-10 lg:mx-16 2xl:mx-20 md:items-center md:justify-between'>
                     <div className='font-medium space-y-5 text-base xl:text-lg text-[#677487] mt-10 mx-5 lg:mx-10 xl:mx-16 md:w-4/12'>
-                        <div className='flex'>
+                        <div className='flex items-start'>
                             <img src='/images/kontak/map.svg'  alt='map'/>
                             <p className='pl-3'>Jl. Pelabuhan II, RT.01/RW.06, Cikondang, Citamiang, Kota Sukabumi, Jawa Barat 43141</p>
                         </div>

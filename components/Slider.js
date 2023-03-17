@@ -12,7 +12,7 @@ import Link from "next/link";
 
 export default function Slider() {
     return (
-        <div className="pt-20 md:pt-[95px]  ">
+        <div className="pt-16 md:pt-[70px]  ">
             <Swiper
                 pagination={true}
                 modules={[Pagination]}

@@ -1,11 +1,13 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 
 export default function Teacher() {
   return (
-    <div className='mt-20'>
-      <div className='relative h-[450px] mt-20 bg-Header flex items-center justify-center md:bg-dekstop bg-cover sm:h-[650px] bg-bottom bg-no-repeat'>
+    <div className='mt-16'>
+      <div className='relative h-[450px] mt-16 bg-Header flex items-center justify-center md:bg-dekstop bg-cover sm:h-[650px] bg-bottom bg-no-repeat'>
         <img src='/images/header/Frame 13.png' />
-        <div className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] absolute bottom-7 pt-5 2xl:bottom-16 bg-white px-9 py-2 rounded-tr-[30px] w-[90%]'>
+        <div className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] absolute bottom-7 pt-5 2xl:bottom-16 bg-white px-9 rounded-tr-[30px] w-[90%]'>
           <h1>
             Guru Produktif OTKP
           </h1>
@@ -13,7 +15,7 @@ export default function Teacher() {
       </div>
       <div className='flex flex-wrap mx-5 md:mx-9 lg:mx-12 xl:mx-16 2xl:mx-24'>
 
-        <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
+        <div className='flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32 mx-auto'>
           <img src='/images/guru/OTKP/yuyu.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
           <img src='/images/guru/OTKP/detijuwita.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
           <img src='/images/guru/OTKP/mia.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
@@ -21,7 +23,7 @@ export default function Teacher() {
           <img src='/images/guru/OTKP/asri.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
         </div>
 
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru Produktif AKL</p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru Produktif AKL</p>
 
         <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
           <img src='/images/guru/AKL/yoga.png' alt='pak yoga' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
@@ -35,7 +37,7 @@ export default function Teacher() {
           <img src='/images/guru/AKL/cecep.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
           <img src='/images/guru/AKL/enan.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
         </div>
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru Produktif BDP</p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru Produktif BDP</p>
 
         <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
           <img src='/images/guru/BDP/nelly.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
@@ -46,7 +48,7 @@ export default function Teacher() {
           <img src='/images/guru/BDP/septiani.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
           <img src='/images/guru/BDP/ida.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
         </div>
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru Produktif RPL</p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru Produktif RPL</p>
 
         <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
           <img src='/images/guru/RPL/faisal.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
@@ -55,7 +57,7 @@ export default function Teacher() {
           <img src='/images/guru/RPL/rika.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
         </div>
 
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru Produktif TKJ</p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru Produktif TKJ</p>
         <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
           <img src='/images/guru/TKJ/lusi.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
           <img src='/images/guru/TKJ/rani novitasari.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
@@ -63,7 +65,7 @@ export default function Teacher() {
           <img src='/images/guru/TKJ/sukmawansyah.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
         </div>
 
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru Bahasa Indonesia </p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru Bahasa Indonesia </p>
         <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
           <img src='/images/guru//Bahasa_Indonesia/hasannah.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
           <img src='/images/guru/Bahasa_Indonesia/siti.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
@@ -71,7 +73,7 @@ export default function Teacher() {
           <img src='/images/guru/Bahasa_Indonesia/wiwin.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
         </div>
 
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru PAI </p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru PAI </p>
         <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
           <img src='/images/guru//PAI/jamaludin.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
           <img src='/images/guru/PAI/khaerunisa.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
@@ -79,7 +81,7 @@ export default function Teacher() {
           <img src='/images/guru/PAI/adi.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
         </div>
 
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru MATEMATIKA </p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru Matematika</p>
         <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
           <img src='/images/guru//MTK/ati.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
           <img src='/images/guru/MTK/een.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
@@ -87,7 +89,7 @@ export default function Teacher() {
           <img src='/images/guru/MTK/tri.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
         </div>
 
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru Bahasa Inggris </p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru Bahasa Inggris </p>
         <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
           <img src='/images/guru/Bahasa_Inggris/debie.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
           <img src='/images/guru/Bahasa_Inggris/asep.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
@@ -96,7 +98,7 @@ export default function Teacher() {
         </div>
 
         <div className='mx-auto'>
-        <p className=' text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru BK </p>
+        <p className=' text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru BK </p>
         <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
           <img src='/images/guru/BK/yedi.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
           <img src='/images/guru/BK/fatma.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
@@ -105,7 +107,7 @@ export default function Teacher() {
         </div>
 
         <div className='mx-auto'>
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru PJOK</p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru PJOK</p>
           <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
             <img src='/images/guru/PJOK/dede.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
             <img src='/images/guru/PJOK/dadan.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
@@ -114,7 +116,7 @@ export default function Teacher() {
         </div>
 
         <div className='mx-auto w-full'> 
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru PKN</p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru PKN</p>
           <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
             <img src='/images/guru/PKN/ayi.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
             <img src='/images/guru/PKN/iwan.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
@@ -122,7 +124,7 @@ export default function Teacher() {
         </div>
 
         <div className='mx-auto w-full'>
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru KIMIA</p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru Kimia</p>
           <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
             <img src='/images/guru/KIMIA/dani.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
             <img src='/images/guru/KIMIA/zahra.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
@@ -130,33 +132,32 @@ export default function Teacher() {
         </div>
 
         <div className='mx-auto w-6/12 md:border-r-2'>
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru SEJARAH</p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru Sejarah</p>
           <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
             <img src='/images/guru/SEJARAH/widodo.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
           </div>
         </div>
 
         <div className='mx-auto w-6/12 md:border-l-2'>
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru SISKOM</p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru Siskom</p>
           <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
             <img src='/images/guru/SISKOM/santi.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
           </div>
         </div>
 
         <div className='mx-auto w-6/12 md:border-r-2 '>
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru SENI</p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru SBK</p>
           <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
             <img src='/images/guru/SBK/lidia.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
           </div>
         </div>
 
         <div className='mx-auto w-6/12 md:border-l-2 '>
-        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto my-10'>Guru SUNDA</p>
+        <p className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] mx-auto mt-9'>Guru SND</p>
           <div className='py-5 flex flex-wrap justify-center gap-3 sm:gap-16 md:gap-20 2xl:gap-32  mx-auto'>
             <img src='/images/guru/SUNDA/lendra.png' alt='' className='w-36 md:w-40 lg:w-44 xl:w-60 ' />
           </div>
         </div>
-
       </div>
     </div>
   )

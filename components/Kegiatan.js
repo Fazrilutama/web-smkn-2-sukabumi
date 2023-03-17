@@ -3,9 +3,9 @@ import React from 'react'
 export default function Kegiatan() {
   return (
     <div className='mx-auto'>
-      <div className='mt-20'>
+      <div className='mt-16'>
         <div>
-          <div className='relative h-[450px] mt-20 bg-Header flex items-center justify-center md:bg-dekstop bg-cover sm:h-[650px] bg-bottom bg-no-repeat'>
+          <div className='relative h-[450px] mt-16 bg-Header flex items-center justify-center md:bg-dekstop bg-cover sm:h-[650px] bg-bottom bg-no-repeat'>
             <img src='/images/header/Frame 13.png' className=' ' />
 
             <div className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] absolute bottom-7 pt-5 2xl:bottom-16 bg-white px-9 py-2 rounded-tr-[30px] w-[90%]'>
