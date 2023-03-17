@@ -10,7 +10,7 @@ export default function Sarat() {
                 Kunjungi di sini
             </button>
         </div>
-        <div className='w-6/12'>
+        <div className='mx-5 md:w-6/12'>
           <img src='/images/ppdb/persyaratan ppdb.png' alt='sarat ppdb' />
         </div>
     </div>
