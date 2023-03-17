@@ -50,7 +50,7 @@ export default function Dropdown() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  Struktur
+                  Posisi Struktur
                 </Link>
               )}
             </Menu.Item>
@@ -63,7 +63,7 @@ export default function Dropdown() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  Guru
+                  Guru Pengajar
                 </Link>
               )}
             </Menu.Item>

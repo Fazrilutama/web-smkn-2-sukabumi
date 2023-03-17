@@ -54,7 +54,7 @@ export default function Navbar() {
                                     Informasi PPDB
                                 </Link>
                             </li>
-                            <li className='pb-6 text-lg text-[#1e1916] font-bold lg:py-3 py-2 lg:px-4 xl:px-6 text-center hover:text-[#da251c] lg:hover:text-white lg:bg-[#da251c] lg:text-white rounded-[30px] '>
+                            <li className='text-lg font-bold py-3 lg:py-3 lg:px-6 px-4 bg-[#da251c] text-white rounded-full w-28 text-center mx-auto'>
                                 <Link href="/Kontak/" onClick={() => setNavbar (!navbar)}>
                                     Kontak
                                 </Link>

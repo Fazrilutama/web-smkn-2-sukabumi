@@ -9,7 +9,7 @@ export default function Sarat() {
             <p className='text-[#000000] font-semibold text-2xl xl:text-3xl'>Persyaratan PPDB 2021</p>
             <p className='text-[#1D2939] font-normal text-base py-7 '> Persiapkan diri anda dengan membaca persyaratan yang diperlukan, baca dengan teliti jangan sampai ada hal yang menghambat kelulusan anda. Kunjungi PPDB Jawa Barat 2022</p>
             <Link href="https://sekolah.ppdb.disdik.jabarprov.go.id/" target={'_blank'} >
-              <button className='py-2 px-4 bg-red-500 rounded-full text-white text-sm'>
+              <button className='py-2 px-4 sm:py-3 sm:px-6 bg-red-500 font-semibold rounded-full text-white text-sm'>
                   Kunjungi di sini
               </button>
             </Link>
