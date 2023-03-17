@@ -40,7 +40,7 @@ export default function Slider() {
                             <p>Kabupaten se-</p>
                             <p>Nasional</p>
                             <p className="font-normal text-sm lg:text-[28px] pt-1">Mulia, Profesional, Juara</p>
-                            <button className="py-3 px-6 sm:py-4 sm:px-8 mt-6 font-semibold text-sm sm:text-lg bg-[#da251c] rounded-full ">
+                            <button className="py-2 px-4 sm:py-3 sm:px-6 mt-6 font-semibold text-sm sm:text-lg bg-[#da251c] rounded-full ">
                                 <Link href="https://www.instagram.com/p/Cmf0binPAR6/?utm_source=ig_web_copy_link" target={"_blank"} >Lihat Selengkapnya</Link>
                             </button>
                         </div>
@@ -55,7 +55,7 @@ export default function Slider() {
                             <p>Tingkat Kota Dan</p>
                             <p>Kabupaten Sukabumi</p>
                             <p className="font-normal text-sm lg:text-[28px] pt-1">Mulia, Profesional, Juara</p>
-                            <button className="py-3 px-6 sm:py-4 sm:px-8 mt-6 font-semibold text-sm sm:text-lg bg-[#da251c] rounded-full ">
+                            <button className="py-2 px-4 sm:py-3 sm:px-6 mt-6 font-semibold text-sm sm:text-lg bg-[#da251c] rounded-full ">
                                 <Link href="https://www.instagram.com/p/CldGpEKyg4w/?utm_source=ig_web_copy_link" target={"_blank"} >Lihat Selengkapnya</Link>
                             </button>
                         </div>
