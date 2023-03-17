@@ -29,7 +29,7 @@ export default function Kejuaraan() {
                                 </p>
                                 <div className=''>
                                     <Link href="https://www.instagram.com/p/Cmf0binPAR6/?utm_source=ig_web_copy_link" target={"_blank"}>
-                                        <button className='bg-[#da251c] py-3 px-6 sm:py-4 sm:px-8 text-sm font-semibold text-white rounded-full mt-3 '>
+                                        <button className='bg-[#da251c] py-2 px-4 sm:py-3 sm:px-6 text-sm font-semibold text-white rounded-full mt-3 '>
                                             Baca selengkapnya
                                         </button>
                                     </Link>
@@ -49,7 +49,7 @@ export default function Kejuaraan() {
                                     </p>
                                     <div className=''>
                                         <Link href="https://www.instagram.com/dokumenter_smkn2_smi/?hl=id" target={"_blank"}>
-                                            <button className='bg-[#da251c] py-3 px-6 sm:py-4 sm:px-8 text-sm font-semibold text-white rounded-full mt-3 '>
+                                            <button className='bg-[#da251c] py-2 px-4 sm:py-3 sm:px-6 text-sm font-semibold text-white rounded-full mt-3 '>
                                                 Baca selengkapnya
                                             </button>
                                         </Link>
