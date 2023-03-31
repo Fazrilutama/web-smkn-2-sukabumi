@@ -5,7 +5,7 @@ import '@splidejs/react-splide/css';
 function Saranaprasarana() {
   return (
     <>
-    <div className="hidden md:flex flex-wrap mt-10 justify-around">
+    <div className="hidden md:flex flex-wrap mt-10 justify-around mx-auto 2xl:w-10/12">
     <Image
           src="/images/sarana/perpus.png"
           alt="AKL"

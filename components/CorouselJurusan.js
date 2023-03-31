@@ -5,7 +5,7 @@ import '@splidejs/react-splide/css';
 function CarouselJurusan() {
   return (
     <>
-    <div className="hidden sm:flex flex-wrap mt-10 justify-around mx-5">
+    <div className="hidden sm:flex flex-wrap mt-10 justify-around 2xl:w-10/12 mx-auto px-5">
     <Image
           src="/images/carousel/AKL.png"
           alt="AKL"

@@ -21,8 +21,8 @@ export default function Home() {
         <Navbar />
         <Slider />
         <Kejuaraan/>
-        <Kepsek />
         <KompetensiKeahlian />
+        <Kepsek />
         <Footer />
         
       </div>
