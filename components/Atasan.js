@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { Petinggi } from "@/pages/data/Petinggi";
+import { Petinggi } from "@/data/Petinggi";
 import React from "react";
 
 export default function Atasan() {

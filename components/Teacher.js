@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { Fragment } from "react";
 import { GuruPengajarCard } from "./Cards/GuruPengajarCard";
-import { guruPengajar } from "@/pages/data/Pengajar";
+import { guruPengajar } from "@/data/Pengajar";
 
 export default function Teacher() {
   return (
