@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Sarat from './Sarat'
 import Uu from './Uu'
@@ -7,8 +8,8 @@ export default function Headppdb() {
     return (
         <div className='mx-auto'>
             <div className='mt-16'>
-                <img src='/images/ppdb/Header mobile.png' className='md:hidden' />
-                <img src='/images/ppdb/Header.png' className='hidden md:block' />
+                <img src='/images/ppdb/Header mobile.png' alt='' className='md:hidden' />
+                <img src='/images/ppdb/Header.png' alt='' className='hidden md:block' />
             </div>
             <div className='mx-4 md:mx-10 lg:mx-20 lg:flex md:my-10'>
                 <div className='lg:hidden'>

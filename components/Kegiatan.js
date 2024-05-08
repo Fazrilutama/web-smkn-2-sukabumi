@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 
 export default function Kegiatan() {
@@ -6,7 +7,7 @@ export default function Kegiatan() {
       <div className='mt-16'>
         <div>
           <div className='relative h-[450px] mt-16 bg-Header flex items-center justify-center md:bg-dekstop bg-cover sm:h-[650px] bg-bottom bg-no-repeat'>
-            <img src='/images/header/Frame 13.png' className=' ' />
+            <img src='/images/header/Frame 13.png' alt='' />
 
             <div className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] absolute bottom-7 pt-5 2xl:bottom-16 bg-white px-9 py-2 rounded-tr-[30px] w-[90%]'>
               <h1>
@@ -15,9 +16,9 @@ export default function Kegiatan() {
             </div>
           </div>
         </div>
-        <div className='px-6 lg:flex lg:flex-wrap lg:justify-evenly bg-atasanmobile bg-cover md:bg-atasandekstop md:py-8 md:bg-cover '>
+        <div className='px-6 bg-cover lg:flex lg:flex-wrap lg:justify-evenly bg-atasanmobile md:bg-atasandekstop md:py-8 md:bg-cover '>
           <div className='rounded-b-2xl py-5 lg:py-10 lg:flex items-center rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
-            <div className='px-5 flex items-center'>
+            <div className='flex items-center px-5'>
               <img src='/images/ekstrakulikuler/pramuka.png' alt='Pramuka' className='lg:w-80'/>
             </div>
             <div className='px-5 py-5'>
@@ -28,7 +29,7 @@ export default function Kegiatan() {
             </div>
           </div>
           <div className='rounded-b-2xl py-5 lg:py-10 lg:flex items-center rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
-            <div className='px-5 flex items-center'>
+            <div className='flex items-center px-5'>
 
               <img src='/images/ekstrakulikuler/pmr.png' alt='Pramuka' className='lg:w-80' />
             </div>
@@ -40,7 +41,7 @@ export default function Kegiatan() {
             </div>
           </div>
           <div className='rounded-b-2xl py-5 lg:py-10 lg:flex items-center rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10 '>
-            <div className='px-5 flex items-center'>
+            <div className='flex items-center px-5'>
               
               <img src='/images/ekstrakulikuler/paskibra.png' alt='Pramuka' className='lg:w-80' />
             </div>
@@ -52,7 +53,7 @@ export default function Kegiatan() {
             </div>
           </div>
           <div className='rounded-b-2xl py-5 lg:py-10 lg:flex items-center rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
-            <div className='px-5 flex items-center'>
+            <div className='flex items-center px-5'>
               <img src='/images/ekstrakulikuler/irmasi.png' alt='Pramuka' className='lg:w-80' />
             </div>
             <div className='px-5 py-5'>
@@ -63,7 +64,7 @@ export default function Kegiatan() {
             </div>
           </div>
           <div className='rounded-b-2xl py-5 lg:py-10 lg:flex items-center rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10 '>
-            <div className='px-5 flex items-center'>
+            <div className='flex items-center px-5'>
 
               <img src='/images/ekstrakulikuler/lasphic.png' alt='Pramuka' className='lg:w-80' />
             </div>
@@ -75,7 +76,7 @@ export default function Kegiatan() {
             </div>
           </div>
           <div className='rounded-b-2xl py-5 lg:py-10 lg:flex items-center rounded-tr-[30px] shadow-xl md:flex lg:w-[41%] bg-white md:mx-10 my-10'>
-            <div className='px-5 flex items-center'>
+            <div className='flex items-center px-5'>
 
               <img src='/images/ekstrakulikuler/confidance.png' alt='Pramuka' className='lg:w-80' />
             </div>

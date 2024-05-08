@@ -1,11 +1,11 @@
-import React from 'react'
+/* eslint-disable @next/next/no-img-element */
 
 export default function Header() {
     return (
         <div className='mx-auto'>
             <div className=''>
                 <div className='relative h-[450px] mt-16 bg-Header flex items-center justify-center md:bg-dekstop bg-cover sm:h-[650px] bg-bottom bg-no-repeat'>
-                    <img src='/images/header/Frame 13.png' />
+                    <img src='/images/header/Frame 13.png' alt='' />
                     <div className='text-center font-semibold text-[28px] xl:text-4xl 2xl:text-5xl text-[#677487] absolute bottom-7 pt-5 2xl:bottom-16 bg-white px-9 py-2 rounded-tr-[30px] w-[90%]'>
                         <h1>
                             Sejarah Singkat
@@ -29,7 +29,7 @@ export default function Header() {
                         </h1>
                     </div>
 
-                    <div className='md:flex md:gap-10 mx-5'>                    
+                    <div className='mx-5 md:flex md:gap-10'>                    
                         <div className='w-full md:w-6/12'>
                             <div className='font-bold text-[#677487] text-2xl py-5 pt-16 '>
                                 <p>Visi</p>
@@ -44,7 +44,7 @@ export default function Header() {
                             </div>
                         </div>
 
-                        <div className='w-full md:w-6/12 flex-col'>
+                        <div className='flex-col w-full md:w-6/12'>
                                 <div className='font-bold text-[#677487] text-2xl py-5 pt-16 '>
                                     <p>Misi</p>
                                 </div>

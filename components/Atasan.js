@@ -1,14 +1,15 @@
+/* eslint-disable @next/next/no-img-element */
 import { Petinggi } from "@/pages/data/Petinggi";
 import React from "react";
 
 export default function Atasan() {
   return (
     <div className="bg-[hsl(3,77%,48%)] sm:bg-atasanGuru bg-cover mt-20 mx-auto -mb-32 pb-28 lg:py-16">
-      <div className="grid grid-cols-2 xl:grid-cols-3 place-items-center mx-auto 2xl:w-11/12 px-5 xl:px-10">
+      <div className="grid grid-cols-2 px-5 mx-auto xl:grid-cols-3 place-items-center 2xl:w-11/12 xl:px-10">
         {Petinggi.map((penting) => {
           return (
             <div key={penting.id}>
-              <div className="text-center py-5">
+              <div className="py-5 text-center">
                 <img
                   src={penting.image}
                   alt={penting.nama}
