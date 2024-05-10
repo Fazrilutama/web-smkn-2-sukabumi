@@ -1,4 +1,4 @@
-export const guruPengajar = [
+export const Pengajar = [
   {
     title: "Guru Produktif OTKP",
     list_guru: [
@@ -31,8 +31,8 @@ export const guruPengajar = [
         image: "/images/guru/OTKP/asri.png",
         nama: "Asri Wahyuni Shafarila, S.Pd.",
         mapel: "Guru Produktif OTKP",
-      }
-    ]
+      },
+    ],
   },
   {
     title: "Guru Produktif AKL",
@@ -96,8 +96,8 @@ export const guruPengajar = [
         image: "/images/guru/AKL/enan.png",
         nama: "Drs. Enan Sunarya, M.Pd.",
         mapel: "Guru Produktif AKL",
-      }
-    ]
+      },
+    ],
   },
   {
     title: "Guru Produktif BDP",
@@ -143,8 +143,8 @@ export const guruPengajar = [
         image: "/images/guru/BDP/ida.png",
         nama: "Ida Julianti. S.Pd.",
         mapel: "Guru Produktif BDP",
-      }
-    ]
+      },
+    ],
   },
   {
     title: "Guru Produktif RPL",
@@ -172,8 +172,8 @@ export const guruPengajar = [
         image: "/images/guru/RPL/rika.png",
         nama: "Neng Rika Susanti S.T. M.Kom.",
         mapel: "Guru Produktif RPL",
-      }
-    ]
+      },
+    ],
   },
   {
     title: "Guru Produktif TKJ",
@@ -207,8 +207,8 @@ export const guruPengajar = [
         image: "/images/guru/TKJ/iman.png",
         nama: "Sukmawansyah S.Kom.",
         mapel: "Guru Produktif TKJ",
-      }
-    ]
+      },
+    ],
   },
   {
     title: "Guru Bahasa Indonesia",
@@ -236,8 +236,8 @@ export const guruPengajar = [
         image: "/images/guru/Bahasa_Indonesia/wiwin.png",
         nama: "Wiwin Amelia S.Pd.",
         mapel: "Guru Bahasa Indonesia",
-      }
-    ]
+      },
+    ],
   },
   {
     title: "Guru PAI",
@@ -265,8 +265,8 @@ export const guruPengajar = [
         image: "/images/guru/PAI/adi.png",
         nama: "Adi Rohman S.Pd.",
         mapel: "Guru PAI",
-      }
-    ]
+      },
+    ],
   },
   {
     title: "Guru Matematika",
@@ -294,8 +294,8 @@ export const guruPengajar = [
         image: "/images/guru/MTK/nuzwan.png",
         nama: "Drs. Nuzwan Sudariana M.M. Kom.",
         mapel: "Guru Matematika",
-      }
-    ]
+      },
+    ],
   },
   {
     title: "Guru Bahasa Inggris",
@@ -323,8 +323,8 @@ export const guruPengajar = [
         image: "/images/guru/Bahasa_Inggris/inon.png",
         nama: "Dra. Inon Herlina S.S",
         mapel: "Guru Bahasa Inggris",
-      }
-    ]
+      },
+    ],
   },
   {
     title: "Guru BK",
@@ -347,7 +347,7 @@ export const guruPengajar = [
         nama: "Drs. Nurmansyah",
         mapel: "Guru BK",
       },
-    ]
+    ],
   },
   {
     title: "Guru PJOK",
@@ -370,7 +370,7 @@ export const guruPengajar = [
         nama: "Dede Maulana Afghany S.Pd",
         mapel: "Guru PJOK",
       },
-    ]
+    ],
   },
   {
     title: "Guru PKN",
@@ -387,7 +387,7 @@ export const guruPengajar = [
         nama: "Ayi Deri Koswari S.Pd M.M",
         mapel: "Guru PKN",
       },
-    ]
+    ],
   },
   {
     title: "Guru Kimia",
@@ -404,7 +404,7 @@ export const guruPengajar = [
         nama: "Dani Hendrawan S.Pd",
         mapel: "Guru Kimia",
       },
-    ]
+    ],
   },
   {
     title: "Guru Sejarah",
@@ -415,7 +415,7 @@ export const guruPengajar = [
         nama: "Slamet Widodo S.Pd",
         mapel: "Guru Sejarah",
       },
-    ]
+    ],
   },
   {
     title: "Guru Sistem Komunikasi Digital",
@@ -426,7 +426,7 @@ export const guruPengajar = [
         nama: "Santi Supardi M.Kom",
         mapel: "Guru Sistem Komunikasi Digital",
       },
-    ]
+    ],
   },
   {
     title: "Guru Seni Budaya Keterampilan",
@@ -437,7 +437,7 @@ export const guruPengajar = [
         nama: "Dian Lidia Handayani S.Sn. M.M",
         mapel: "Guru Seni Budaya Keterampilan",
       },
-    ]
+    ],
   },
   {
     title: "Guru Bahasa Sunda",
@@ -448,6 +448,6 @@ export const guruPengajar = [
         nama: "Lendra Yusniar S.Pd",
         mapel: "Guru Bahasa Sunda",
       },
-    ]
-  }
-]
+    ],
+  },
+];

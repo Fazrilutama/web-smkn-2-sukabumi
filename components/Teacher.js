@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { Fragment } from "react";
 import { GuruPengajarCard } from "./Cards/GuruPengajarCard";
-import { guruPengajar } from "@/data/Pengajar";
+import { Pengajar } from "@/data/Pengajar";
 
 export default function Teacher() {
   return (
@@ -14,8 +14,8 @@ export default function Teacher() {
         </div>
 
         <div className="container relative z-10 px-4 mx-auto -mt-16 space-y-20 w-[90%]">
-        {guruPengajar.map((item, index) => (
-              <GuruPengajarCard key={index} title={item.title} list_guru={item.list_guru} />
+        {Pengajar.map((item , index) => (
+              <GuruPengajarCard key={index} title={item.title} listGuru={item.list_guru} />
             ))}
         </div>
       </div>

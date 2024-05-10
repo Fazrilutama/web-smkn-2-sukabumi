@@ -1,14 +1,26 @@
 /* eslint-disable @next/next/no-img-element */
-export const GuruPengajarCard = ({ title, list_guru }) => {
+export const GuruPengajarCard = ({ title, listGuru }) => {
   return (
     <div className="space-y-7">
       <div className="text-[#677487] text-center font-semibold text-2xl lg:text-4xl">
         <h1>{title}</h1>
       </div>
-      <div className={`${list_guru.length <= 3 ? "grid grid-cols-2 lg:flex flex-wrap justify-center gap-4" : "grid gap-4 lg:gap-y-10 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4"}`}>
-        {list_guru.map((guru) => {
+
+      <div
+        className={`${
+          listGuru.length <= 3
+            ? "grid grid-cols-2 lg:flex flex-wrap justify-center gap-4"
+            : "grid gap-4 lg:gap-y-10 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4"
+        }`}
+      >
+        {listGuru.map((guru) => {
           return (
-            <div key={guru.id} className={`relative overflow-hidden flex justify-center ${list_guru.length <= 3 ? "w-full lg:basis-1/4" : "w-full"}`}>
+            <div
+              key={guru.id}
+              className={`relative overflow-hidden flex justify-center ${
+                listGuru.length <= 3 ? "w-full lg:basis-1/4" : "w-full"
+              }`}
+            >
               <img
                 src={guru.image}
                 alt={guru.nama}
@@ -27,5 +39,5 @@ export const GuruPengajarCard = ({ title, list_guru }) => {
         })}
       </div>
     </div>
-  )
-}
+  );
+};
